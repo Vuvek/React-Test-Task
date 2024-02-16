@@ -1,5 +1,5 @@
-# Analytics project
-This repository contains Data Visulization Task developed using React.JS and Type Script.
+# Form Project
+This repository contains UI of the Form.
 
 # Getting Started with Create React App
 
@@ -10,6 +10,7 @@ This project was bootstrapped with [Create React App].
 2) npm start (to run server)
 
 
-![ScreenShot](public/imgs/form.png?raw=true "Employee Data title")
+![ScreenShot](public/imgs/form.png?raw=true "Form Image")
+![ScreenShot](public/imgs/form2.png?raw=true "Form Image")
 
 
