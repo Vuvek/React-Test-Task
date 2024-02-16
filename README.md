@@ -1,7 +1,8 @@
 # Contact Form App
-This repository contains UI of the Contact Form and It is fully responsive and required and phone validations are applied.
+This repository contains UI of the Contact Form. 
+App is fully responsive,Basic validations like phone, email, message  are also implemented.
 
-# You can see the Contact Form Data in the console and Data is transformed accordingly. 
+You can see the Contact Form Data in the console and Data is transformed accordingly. 
 
 # Recaptcha is also implemented.
 
@@ -19,5 +20,6 @@ This project was bootstrapped with [Create React App].
 ![ScreenShot](public/imgs/form3.png?raw=true "Small Contact Form Image")
 ![ScreenShot](public/imgs/form4.png?raw=true "Phone Contact Form Image")
 ![ScreenShot](public/imgs/form5.png?raw=true "Extra Small Contact Form Image")
+![ScreenShot](public/imgs/form6.png?raw=true "Data tranformation")
 
 
