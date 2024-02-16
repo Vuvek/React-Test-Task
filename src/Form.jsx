@@ -29,7 +29,7 @@ const Form = () => {
   }
   return (
     <>
-      <div className="bg text-white w-50 my-5">
+      <div className="bg text-white my-5 w-100 w-sm-75 w-md-50">
         <h1>Contact Form</h1>
         <p>Please fill in your information and we'll be sending your order in no time.</p>
 
