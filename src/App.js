@@ -1,13 +1,11 @@
 import React from "react";
 import "./app.css";
-import Form from "./Form";
+import ContactForm from "./components/ContactForm";
 
 function App() {
   return (
-    <div className="bg">
-      <div className="container ">
-        <Form />
-      </div>
+    <div className="main-container">
+        <ContactForm />
     </div>
   );
 }

@@ -4,22 +4,168 @@
     box-sizing: border-box;
 }
 
-html, body {
-    background: linear-gradient(to left,#d09693 0%, #c71d6f 100%,#c71d6f  ) !important;
+/* ################################# HTML Element Styling ################################ */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: linear-gradient(to left,#d09693 0%, #c71d6f 100%,#c71d6f);
+    line-height: 1.7;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    font-size: 1.6rem;
+}
+
+p,li,label {
+    font-size: 1.6rem;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15em;
+}
+
+h1,h2,h3 {
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15em;
+    font-weight: 800;
 }
 
 
+/* ################################ Utility Classes #################################### */
 
-.fix-width {
-    min-width: 130px;
+.main-container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.text-yellow {
+    color: rgb(244, 244, 168);
+}
+
+.text-dark-yellow {
+    color: rgb(236, 236, 113);
 }
 
 .text-white {
-    color: white;
+    color: #f4f4f4;
 }
 
-.bg-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.text-black {
+    color: #000;
 }
+
+.margin-top-bottom {
+    margin: 5em 0;
+}
+
+.btn {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.6em 1.6em;
+    margin-top: 1.5em;
+    text-transform: uppercase;
+    border-radius: 0.5em;
+    border: 2px solid #f4f4f4;
+}
+
+.btn-outline-primary {
+    color: #f4f4f4;
+    background: linear-gradient(to left, #ef59a2 0%,#c71d6f 100%);
+}
+
+
+/* ############################### form Styling ######################## */
+
+
+.main-container .form-heading {
+    margin-bottom: 0.2em;
+    font-weight: 800;
+    font-size: 2.4rem;
+}
+
+.form-container {
+    max-width: 59%;
+    margin-bottom: 1.5em;
+}
+
+.form-label {
+    min-width: 26%;
+}
+
+.form-input {
+    width: 100%;
+    min-height: 35px;
+    padding: 0 0.8em;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+}
+
+.form-input-select {
+    width: 47%;
+    height: 35px;
+    padding: 0 0.8em;
+    border-radius: 3px;
+}
+
+.form-box {
+    display: flex;
+    gap: 18px;
+    justify-content: start;
+    align-content: center;
+    margin-bottom: 2.2em;
+}
+
+.horizantal {
+    height: 2px;
+    background: #f4f4f4;
+}
+
+.recaptcha {
+    overflow: hidden;
+}
+
+
+/* ############################# media Queries ################################# */
+
+
+@media (max-width: 700px) { 
+    .form-container {
+        max-width: 100%;
+    }
+    .margin-top-bottom {
+        margin : 2.8em 0;
+    }
+    .form-label {
+        margin-bottom: 0;
+    }
+    .form-input-select {
+        width: 100%;
+    }
+    .form-box {
+        display: flex;
+        gap: 1em;
+        justify-content: start;
+        align-content: center;
+        flex-direction: column;
+        margin-bottom: 2.2em;
+    }
+ }
+
+ @media (min-width: 700px) and (max-width: 991.98px) { 
+    .form-container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .form-container {
+        max-width: 70%;
+    }
+ }
